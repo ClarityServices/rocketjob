@@ -22,7 +22,7 @@ group :development do
   gem "rubocop"
 
   # Test against master
-  # gem "iostreams", git: "https://github.com/rocketjob/iostreams"
+  # gem "iostreams", github: "clarityservices/iostreams", branch: "master"
 
   # Testing against locally cloned repos
   # gem "iostreams", path: "../iostreams"

@@ -16,8 +16,10 @@ Gem::Specification.new do |s|
   s.add_dependency "aasm", ">= 5.1"
   s.add_dependency "concurrent-ruby", ">= 1.1"
   s.add_dependency "fugit", ">= 1.4"
-  s.add_dependency "iostreams", ">= 1.9"
+  # Dependency defined in Gemfile to use GitHub source
+  # s.add_dependency "iostreams", ">= 1"
   s.add_dependency "mongoid", ">= 7.5"
   s.add_dependency "semantic_logger", ">= 4.7"
   s.add_dependency "symmetric-encryption", ">= 4.3"
+  s.metadata["rubygems_mfa_required"] = "true"
 end
